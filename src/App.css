@@ -1,5 +1,44 @@
+
+*{
+  margin:0; 
+  padding:0;
+  box-sizing: border-box;
+  /* background-image: url(https://ttc.git.tmoses.co.uk/new/assets/bg/bg-76.svg); 
+  background-repeat: no-repeat;
+  background-size: auto;  */
+  /* background-color: #2c343f; */
+  font-family: 'Futura';
+}
+.canvas{
+  background-image: url(https://ttc.git.tmoses.co.uk/new/assets/bg/bg-76.svg); 
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+.title{
+  text-align: center;
+  font-size: 50px;
+  margin: 100px 0;
+}
+.issTitle{
+  margin: 30px 0;
+  text-align: center;
+  font-size: 35px;
+  margin: 13vh 0;
+}
+
+.titleContainer{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
